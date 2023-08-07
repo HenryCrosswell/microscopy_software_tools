@@ -1,3 +1,15 @@
 [
-  "tests/test_preprocessing.py::test_load_image_and_apply_gaussian"
+  "tests/test_preprocessing.py::test_estimate_homography_invalid",
+  "tests/test_preprocessing.py::test_estimate_homography_valid",
+  "tests/test_preprocessing.py::test_image_registration",
+  "tests/test_preprocessing.py::test_load_image_and_apply_gaussian",
+  "tests/test_preprocessing.py::test_register_images",
+  "tests/test_preprocessing.py::test_stitch_images[2]",
+  "tests/test_preprocessing.py::test_stitch_images[3]",
+  "tests/test_preprocessing.py::test_stitch_images[4]",
+  "tests/test_preprocessing.py::test_stitch_images_invalid",
+  "tests/test_preprocessing.py::test_stitch_images_valid",
+  "tests/test_preprocessing.py::test_warp_and_blend_invalid",
+  "tests/test_preprocessing.py::test_warp_and_blend_valid",
+  "tests/test_preprocessing.py::test_z_score_normalize"
 ]
