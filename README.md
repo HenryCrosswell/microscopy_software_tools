@@ -14,7 +14,7 @@ This repository contains the codebase for the project "Automated Analysis Tools 
 
 ## Getting Started
 ### Prerequisites
-- Python 3.x
+- Python 3.9.7
 - Required libraries listed in `requirements.txt`.
 
 ### Installation
