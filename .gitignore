@@ -1,0 +1,4 @@
+# Ignore image files
+*.jpg
+*.tif
+*.nii.gz
