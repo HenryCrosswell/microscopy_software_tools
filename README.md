@@ -1,7 +1,4 @@
-# Automated Analysis Tools for Light Microscopy Data
-
-## Overview
-This repository contains the codebase for the project "Automated Analysis Tools for Light Microscopy Data." The goal of this project is to develop software that enables researchers to efficiently preprocess, segment, and visualize light microscopy datasets. The tools are designed to support both the Sainsbury Wellcome Centre (SWC) Neuroinformatics Unit (NIU) and Advanced Microscopy facilities (AMF) for various microscopy imaging tasks.
+# Automated Analysis Tools for Microscopy Data
 
 ## Features
 - Image preprocessing including noise reduction, background correction, and image registration.
