@@ -1,8 +1,7 @@
 {
-    "python.autoComplete.addBrackets": true,
-    "python.pythonPath": "C:/Users/henry/anaconda3/python.exe",
-    "python.linting.pylintEnabled": false,
-    "python.linting.enabled": true,
-    "python.linting.pylintArgs": ["--load-plugins", "pylint_quotes"],
-    "python.linting.pylintUseMinimalCheckers": false
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
