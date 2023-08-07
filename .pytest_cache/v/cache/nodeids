@@ -1,0 +1,3 @@
+[
+  "tests/test_preprocessing.py::test_load_image_and_apply_gaussian"
+]
