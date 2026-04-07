@@ -1,0 +1,14 @@
+[project]
+name = "microscopy_tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Henry Crosswell", email = "henry.crosswell100@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.11.3,<0.12.0"]
+build-backend = "uv_build"
