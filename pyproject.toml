@@ -23,6 +23,10 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "logging>=0.4.9.6",
+    "mkdocs>=1.6.1",
+    "mkdocs-gen-files>=0.6.1",
+    "mkdocs-material>=9.7.6",
+    "mkdocstrings>=1.0.3",
     "pytest>=9.0.3",
     "pytest-cov>=7.1.0",
     "ruff>=0.15.9",
