@@ -7,5 +7,6 @@
   "tests/test_preprocessing.py::test_image_registration": true,
   "tests/test_preprocessing.py::test_stitch_images[2]": true,
   "tests/test_preprocessing.py::test_stitch_images[3]": true,
-  "tests/test_preprocessing.py::test_stitch_images[4]": true
+  "tests/test_preprocessing.py::test_stitch_images[4]": true,
+  "tests/test_preprocessing.py::test_load_image_and_apply_gaussian": true
 }

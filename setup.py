@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 # Read the requirements from requirements.txt
-with open('requirements.txt') as f:
+with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
@@ -18,4 +18,3 @@ setup(
         "Operating System :: OS Independent",
     ],
 )
-

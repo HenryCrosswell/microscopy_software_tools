@@ -7,8 +7,23 @@ authors = [
     { name = "Henry Crosswell", email = "henry.crosswell100@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.8",
+    "napari>=0.7.0",
+    "nibabel>=5.4.2",
+    "numpy>=2.4.4",
+    "opencv-python>=4.13.0.92",
+    "simpleitk>=2.5.3",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.3,<0.12.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "logging>=0.4.9.6",
+    "pytest>=9.0.3",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.15.9",
+]

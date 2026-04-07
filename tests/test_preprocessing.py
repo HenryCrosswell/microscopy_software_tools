@@ -1,11 +1,10 @@
-import cv2
 import numpy as np
-import pytest
-from preprocessing import load_image_and_apply_gaussian, z_score_normalize 
- 
+from preprocessing import load_image_and_apply_gaussian, z_score_normalize
+
+
 def test_load_image_and_apply_gaussian():
-    file_path_nifti = 'tests/test_data/downsampled_nifti.nii.gz'
-    file_path_other = 'tests/test_data/brain anatomy teaser.jpg'
+    file_path_nifti = "tests/test_data/downsampled_nifti.nii.gz"
+    file_path_other = "tests/test_data/brain anatomy teaser.jpg"
     sigma = 1.0
 
     # Test loading and applying to NIfTI
@@ -19,9 +18,7 @@ def test_load_image_and_apply_gaussian():
 
 def test_z_score_normalize():
     # Create a sample image
-    image = np.array([[10, 20, 30],
-                      [40, 50, 60],
-                      [70, 80, 90]])
+    image = np.array([[10, 20, 30], [40, 50, 60], [70, 80, 90]])
 
     # Calculate mean and standard deviation
     mean_value = np.mean(image)
@@ -35,4 +32,3 @@ def test_z_score_normalize():
 
     # Check if the normalized image matches the expected result
     assert np.allclose(normalized_image, expected_normalized_image)
-
