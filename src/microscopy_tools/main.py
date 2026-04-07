@@ -1,4 +1,7 @@
-from preprocessing import load_image_and_apply_gaussian, z_score_normalize
+from microscopy_tools.preprocessing import (
+    load_image_and_apply_gaussian,
+    z_score_normalize,
+)
 import napari
 import nibabel as nib
 
